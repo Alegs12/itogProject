@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+
+/* .robo-400-16-19-BA {
+    padding: 0 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8794BA;
+} */
+
+body {
+    background:
+        #F8F9FF;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
+.top-image {
+    background-image: url(img/background-top.svg);
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    position: relative;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-right: 95px;
+}
+
+.left-header-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.center-header-navs {
+    padding: 0 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8794BA;
+}
+
+.right-header-navs {
+    padding-right: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8794BA;
+}
+
+.right-header {
+    position: absolute;
+    right: 0;
+}
+
+.right-header-btn {
+    border: 1px solid #465B95;
+    border-radius: 68px;
+    padding: 10px 53px;
+    background-color: transparent;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8794BA;
+}
+
+.left-main {
+    max-width: 550px;
+}
+
+.main-head {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.main-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #8794BA;
+    margin-top: 15px;
+    margin-bottom: 49px;
+}
+
+.main-button {
+    margin-bottom: 258px;
+    background: #EF2A82;
+    border-radius: 68px;
+    border: 1px solid transparent;
+    padding: 15px 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.right-main {}
+
+.features {
+    text-align: center;
+}
+
+.features-head {
+    margin-top: 38px;
+    margin-bottom: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #172755;
+}
+
+.features-text {
+    max-width: 1060px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #8794BA;
+    margin: 0 auto;
+}
+
+.features-items {
+    margin-top: 82px;
+    margin-bottom: 130px;
+    display: flex;
+    gap: 20px;
+    /* justify-content: center; */
+}
+
+.feature-item-one {}
+
+.feature-item-img {
+    margin-bottom: 27px;
+}
+
+.feature-item-head {
+    margin-bottom: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #172755;
+}
+
+.feature-item-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8794BA;
+
+}
+
+.feature-item-two {}
+
+.feature-item-three {}
+
+.figs {}
+
+.figure {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.figcapture-div {
+    max-width: 480px;
+}
+
+.figs-head {
+    margin-bottom: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #172755;
+}
+
+.figs-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #8794BA;
+}
+
+.fig-div-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 410px;
+    background: #FFFFFF;
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+    border-radius: 30px;
+}
+
+.fig-img {
+    /* width: 100%; */
+    max-width: 464px;
+    /* display: block;
+    margin: 50px auto; */
+}
+
+.price {
+    background-image: url(img/Component.svg);
+    background-size: cover;
+    /* margin-top: 114px; */
+}
+
+.price-head {
+    margin-top: 255px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    /* color: #FFFFFF; */
+}
+
+.price-text {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #8794BA;
+}
+
+.price-cards {
+    display: flex;
+    justify-content: space-between
+}
+
+.card {
+    margin-bottom: 158px;
+    width: 340px;
+    background: #0F1F4B;
+    /* opacity: 0.7; */
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+    border-radius: 30px;
+    /* position: relative; */
+}
+
+.price-cards-name {
+    margin-top: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.price-cards-name-text {
+    margin-top: 10px;
+    margin-bottom: 37px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #8794BA;
+
+}
+
+.price-card-line {
+    /* width: 220px;
+    height: 1px;
+    left: calc(50% - 220px/2 - 421px);
+    top: 159px;
+    position: absolute;
+    background: #2A407C; */
+}
+
+.price-val {
+    margin-top: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.price-cards-per-month {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #8794BA;
+}
+
+.price-button {
+    margin: 40px auto 70px;
+    /* margin-top: 40px;
+    margin-bottom: 70px; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: 1px solid #2A407C;
+    border-radius: 68px;
+    padding: 15px 80px;
+    background: transparent;
+    display: block;
+    text-align: center;
+}
+
+.sign {
+    margin-top: 156px;
+    display: flex;
+    justify-content: center;
+}
+
+.left-sign {}
+
+.left-sign-head {}
+
+.left-sign-text {}
+
+.left-sign-img-cont {}
+
+.left-sign-img {}
+
+.right-sign {}
+
+.right-sign-head {}
+
+.sign-form {}
+
+.sign-button {}
+
+.rating-part {}
+
+.rating-head {}
+
+.right-sign-foot-text {}
+
+.right-sign-foot-anchor {}
+
+.footer {}
+
+.left-foot {}
+
+.foot-logo {}
+
+.left-foot-text {}
+
+.center-foot {}
+
+.center-foot-navs {}
+
+.right-foot {}
+
+.right-foot-btn {}
+
+.fa-brands {}
+
+.fa-facebook-f {}
+
+.fa-twitter {}
+
+.fa-instagram {}
