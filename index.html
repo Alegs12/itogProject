@@ -17,10 +17,9 @@
     <div class="top-image">
         <header class="header container">
             <div class="left-header">
-                <div class="left-header-img">
+                <a href="#" class="left-header-img">
                     <img src="img\logo.svg" alt="logo" class="header-logo">
-                </div>
-                <div class="left-header-text">ANALYTICS</div>
+                </a>
             </div>
             <div class="center-header">
                 <a href="#" class="center-header-navs">Products</a>
@@ -34,7 +33,7 @@
             </div>
         </header>
 
-        <main class="main container">
+        <main class="main">
             <div class="left-main">
                 <h2 class="main-head">Monitor your business on real-time dashboard</h2>
                 <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet
@@ -42,8 +41,11 @@
                 </p>
                 <button class="main-button">Try for free</button>
             </div>
-            <div class="right-main">
-                <!-- <img src="img/main-screen.svg" alt="main-image" class="right-main-img"> -->
+            <div class="right-main-desc">
+                <img src="img/main-screen.svg" alt="main-image" class="right-main-img">
+            </div>
+            <div class="right-main-mob">
+                <img src="img/main-screen-mobile.svg" alt="main-image" class="right-main-img">
             </div>
         </main>
     </div>
@@ -54,23 +56,30 @@
             volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et,
             tortor pulvinar risus pulvinar sit amet. Id vel in nam malesuada.</p>
         <div class="features-items">
-            <div class="feature-item-one">
+            <div class="feature-item">
                 <img src="img/clock.svg" alt="clock" class="feature-item-img">
-                <h4 class="feature-item-head">Monitoring 24/7</h4>
-                <p class="feature-item-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit. Elementum nisi
-                    aliquet volutpat.</p>
+                <div class="feature-content">
+                    <h4 class="feature-item-head">Monitoring 24/7</h4>
+                    <p class="feature-item-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit. Elementum
+                        nisi
+                        aliquet volutpat.</p>
+                </div>
             </div>
-            <div class="feature-item-two">
+            <div class="feature-item">
                 <img src="img/monitor.svg" alt="monitor" class="feature-item-img">
-                <h4 class="feature-item-head">Widget System</h4>
-                <p class="feature-item-text">Sapien in etiam vitae nibh nunc mattis imperdiet
-                    sed nullam. Vitae et, tortor pulvinar risus pulvinar.</p>
+                <div class="feature-content">
+                    <h4 class="feature-item-head">Widget System</h4>
+                    <p class="feature-item-text">Sapien in etiam vitae nibh nunc mattis imperdiet
+                        sed nullam. Vitae et, tortor pulvinar risus pulvinar.</p>
+                </div>
             </div>
-            <div class="feature-item-three">
+            <div class="feature-item">
                 <img src="img/rocket.svg" alt="rocket" class="feature-item-img">
-                <h4 class="feature-item-head">Best Performance</h4>
-                <p class="feature-item-text">Lorem ipsum dolor sit amet, consectetur adipis
-                    cing elit. Elementum nisi aliquet volutpat.</p>
+                <div class="feature-content">
+                    <h4 class="feature-item-head">Best Performance</h4>
+                    <p class="feature-item-text">Lorem ipsum dolor sit amet, consectetur adipis
+                        cing elit. Elementum nisi aliquet volutpat.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -89,7 +98,7 @@
                 <img src="img/screen-01-1.svg" alt="diagram1" class="fig-img">
             </div>
         </figure>
-        <figure class="figure">
+        <figure class="figure fig-center">
             <div class="fig-div-img">
                 <img src="img/screen-02-1.svg" alt="diagram2" class="fig-img">
             </div>
@@ -120,30 +129,36 @@
             <p class="price-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet
                 volutpat pellentesque volutpat est. </p>
             <div class="price-cards">
-                <div class="card">
+                <div class="card-hidden-left">
+                </div>
+                <div class="card card-left">
                     <h3 class="price-cards-name">Starter</h3>
                     <p class="price-cards-name-text">up to 3 users</p>
-                    <span class="price-card-line">----------</span>
-                    <h2 class="price-val">$29</h2>
+                    <div class="price-card-line"></div>
+                    <h2 class="price-val"><span class="dollar">$</span>29</h2>
                     <p class="price-cards-per-month">per month</p>
                     <button class="price-button">Order</button>
                 </div>
+
                 <div class="card">
                     <h3 class="price-cards-name">Standard</h3>
                     <p class="price-cards-name-text">up to 20 users</p>
-                    <span class="price-card-line"></span>
-                    <h2 class="price-val">$99</h2>
+                    <div class="price-card-line"></div>
+                    <h2 class="price-val"><span class="dollar">$</span>99</h2>
                     <p class="price-cards-per-month">per month</p>
                     <button class="price-button">Order</button>
                 </div>
-                <div class="card">
+                <div class="card-hidden-right">
+                </div>
+                <div class="card card-right">
                     <h3 class="price-cards-name">Premium</h3>
                     <p class="price-cards-name-text">up to 200 users</p>
-                    <span class="price-card-line"></span>
-                    <h2 class="price-val">$299</h2>
+                    <div class="price-card-line"></div>
+                    <h2 class="price-val"><span class="dollar">$</span>299</h2>
                     <p class="price-cards-per-month">per month</p>
                     <button class="price-button">Order</button>
                 </div>
+
             </div>
 
 
@@ -153,47 +168,80 @@
     <section class="sign container">
         <div class="left-sign">
             <h3 class="left-sign-head">See why the world’s best companies use Analytics</h3>
-            <p class="left-sign-text">Trusted by</p>
+            <div class="trust">
+                <div class="line"></div>
+                <p class="left-sign-text">Trusted by</p>
+                <div class="line"></div>
+            </div>
             <div class="left-sign-img-cont">
-                <img src="img/icon1.svg" alt="icon1" class="left-sign-img">
-                <img src="img/icon2.svg" alt="icon2" class="left-sign-img">
-                <img src="img/icon3.svg" alt="icon3" class="left-sign-img">
-                <img src="img/icon4.svg" alt="icon4" class="left-sign-img">
-
+                <img src="img/Client_logos.svg" alt="logos" class="left-sign-img">
             </div>
         </div>
         <div class="right-sign">
-            <h3 class="right-sign-head">Sign Up</h3>
-            <form action="#" class="sign-form">
-                <button class="sign-button" type="submit">Start your free trial</button>
-                <input type="email" placeholder="Your primary email">
-                <input type="password" placeholder="Password">
-                <input type="password" placeholder="Re-type Password">
-            </form>
-            <div class="rating-part">
-                <h4 class="rating-head">Help us get better</h4>
+            <div class="sign-back">
+                <img src="img/sign-back.svg" alt="" style="margin-top: 42px;">
             </div>
-            <p class="right-sign-foot-text">Already have an account?
-                <a href="#" class="right-sign-foot-anchor">Login</a>
-            </p>
+            <div class="sign-box">
+                <h3 class="right-sign-head">Sign Up</h3>
+                <form action="#" class="sign-form">
+                    <button class="sign-button" type="submit">Start your free trial</button>
+                    <input class="input input_mail" type="email" placeholder="Your primary email">
+                    <input class="input input_pass" type="password" placeholder="Password">
+                    <input class="input input_pass-re" type="password" placeholder="Re-type Password">
+                    <div class="rating-part">
+                        <h4 class="rating-head">Help us get better</h4>
+                        <div class="rating">
+                            <div class="rating_sign">
+                                <label for="1" class="rating_sign_lable"><i class="fa-solid fa-star"></i></label>
+                                <input type="radio" name="rating" id="1" value="1" class="rating_sign_input">
+                            </div>
+                            <div class="rating_sign">
+                                <label for="2" class="rating_sign_lable"><i class="fa-solid fa-star"></i></label>
+                                <input type="radio" name="rating" id="2" value="2" class="rating_sign_input">
+                            </div>
+                            <div class="rating_sign">
+                                <label for="3" class="rating_sign_lable"><i class="fa-solid fa-star"></i></label>
+                                <input type="radio" name="rating" id="3" value="3" class="rating_sign_input">
+                            </div>
+                            <div class="rating_sign">
+                                <label for="4" class="rating_sign_lable"><i class="fa-solid fa-star"></i></label>
+                                <input type="radio" name="rating" id="4" value="4" class="rating_sign_input">
+                            </div>
+                            <div class="rating_sign">
+                                <label for="5" class="rating_sign_lable"><i class="fa-solid fa-star"></i></label>
+                                <input type="radio" name="rating" id="5" value="5" class="rating_sign_input">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="sign-line"></div>
+                <p class="right-sign-foot-text">Already have an account?
+                    <a href="#" class="right-sign-foot-anchor">Login</a>
+                </p>
+            </div>
         </div>
     </section>
 
-    <footer class="footer container">
-        <div class="left-foot">
-            <img src="img/logo-foot.svg" alt="logo-foot" class="foot-logo">
-            <h4 class="left-foot-text">ANALYTICS</h4>
-        </div>
-        <div class="center-foot">
-            <a href="#" class="center-foot-navs">Product</a>
-            <a href="#" class="center-foot-navs">Pricing Plans</a>
-            <a href="#" class="center-foot-navs">FAQ</a>
-            <a href="#" class="center-foot-navs">Blog</a>
-        </div>
-        <div class="right-foot">
-            <button class="right-foot-btn"><i class="fa-brands fa-facebook-f"></i></button>
-            <button class="right-foot-btn"><i class="fa-brands fa-twitter"></i></button>
-            <button class="right-foot-btn"><i class="fa-brands fa-instagram"></i></button>
+    <footer class="footer">
+        <div class="container flex-box">
+            <div class="left-foot">
+                <a href="#">
+                    <img src="img/logo-foot-1.svg" alt="logo-foot" class="foot-logo">
+                </a>
+
+            </div>
+            <div class="center-foot">
+                <a href="#" class="center-foot-navs">Product</a>
+                <a href="#" class="center-foot-navs">Pricing Plans</a>
+                <a href="#" class="center-foot-navs">FAQ</a>
+                <a href="#" class="center-foot-navs">Blog</a>
+            </div>
+            <div class="right-foot">
+                <button class="right-foot-btn"><i class="fa-brands fa-facebook-f"></i></button>
+                <button class="right-foot-btn"><i class="fa-brands fa-twitter"></i></button>
+                <button class="right-foot-btn"><i class="fa-brands fa-instagram"></i></button>
+            </div>
         </div>
     </footer>
 
